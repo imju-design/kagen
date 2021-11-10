@@ -1,0 +1,271 @@
+body {
+    background-color:#0b2e0e;
+}
+.parentDiv {
+  width: 100%;
+  background-color: none;
+  color: white;
+  margin:0;
+  border-bottom: solid;
+  border-bottom-width: 0.7pt;
+
+}
+
+.nav {
+  text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.navlink {
+    font-family: 'Assistant', sans-serif;
+    font-size:15pt;
+    color: #faf9f0;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color:#faa7b2;
+    font-weight: 400;
+    border-left: solid;
+    border-width: 5pt;
+    padding-left: 5pt;
+    
+}
+
+h1 {
+font-family: 'Maragsa';
+    font-weight:200;
+    font-size: 8vw;
+    margin-bottom: 0vh;
+    margin-top:8vh;
+    color: #faa7b2;
+    
+}
+
+h2 {
+font-family: 'Maragsa';
+    font-weight:200;
+    font-size: 6vw;
+    margin-top:6vh;
+    color: #faa7b2;
+    
+}
+
+.occupation {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    margin-top: 8pt;
+    color: #faf9f0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bio-text {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    color: #faf9f0;
+    font-weight: 100;
+    text-align: left;
+    padding-bottom: 38pt;
+    border-bottom: solid;
+  border-bottom-width: 0.4pt;
+
+}
+
+.find {
+    font-family: 'Assistant', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+    color: #faf9f0;
+    font-weight: 200;
+    text-align: left;
+}
+
+.link {
+   font-family: 'Assistant', sans-serif;
+    font-size: 12pt;
+    color: #faa7b2;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 5pt; 
+    text-decoration: none;
+}
+
+
+.artists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+}
+
+.artist-name {
+      margin-bottom: 7vh;
+}
+
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.text {
+    padding-left: 30px;
+    padding-right: 9vw;
+
+}
+
+img {
+    max-height:43vw;
+    width:auto;
+     
+}
+
+.work-section {
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+.work {
+display: flex;
+flex-direction: row;
+
+}
+
+.work-sample {
+display: flex;
+flex-direction: column;
+align-items: center; 
+padding: 10pt;
+}
+
+.button {
+ border-style:solid;
+  border-color:#faa7b2;
+  padding: 10px 27px;
+  text-align: center;
+  display: inline-block;
+    font-family: 'Assistant', sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+    text-decoration: none;
+color: #faa7b2;  
+font-size: 16px;
+}
+
+
+.button:hover {
+ background:#faa7b2;
+  border-color:#faa7b2;
+  color:#0b2e0e;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+    font-weight: 400;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer {
+    border-top: solid;
+  border-top-width: 0.7pt;
+    border-top-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30pt;
+    margin-top: 50pt;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.footer-title {
+   font-family: 'Assistant', sans-serif;
+    font-size:12pt;
+    color: #faf9f0;
+    font-weight: 400; 
+}
+
+.footer-text {
+   font-family: 'Assistant', sans-serif;
+    font-size:10pt;
+    color: #faa7b2;
+    font-weight: 200;
+    text-decoration: none;
+    padding-top: 0pt;
+    padding-bottom: 5pt;
+}
+
+.footer-about {
+   font-family: 'Assistant', sans-serif;
+    font-size:14pt;
+    color: #faf9f0;
+    font-weight: 300;
+    text-decoration: none;
+    padding-top: 0pt;
+    padding-bottom: 2pt;
+    width: 50vw;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}    
+    
+.work {
+display: flex;
+flex-direction: column;
+align-items: center;
+} 
+   
+.text {
+padding: 0pt;
+    }
+    
+img {
+max-height:80vw;
+width:95%;
+}
+    
+.work-img {
+max-height:120vw;
+width:auto;
+}    
+    
+h1 {
+font-family: 'Maragsa';
+font-weight:200;
+font-size: 12vw;
+margin-bottom: 0vh;
+margin-top:4vh;
+}
+    
+footer-about {
+    font-size:9pt;
+    
+    
+}
+
+
