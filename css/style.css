@@ -890,6 +890,8 @@ body {
 .nav {
   text-align: center;
     margin-right: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .navlink {
@@ -1279,6 +1281,28 @@ flex-direction: column-reverse;
         top: 16290px;
     }
     
+    .Titular {
+    font-size: 40pt;
+        padding-top: 20px;
+}
+    
+    ul li {
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    ul {
+        padding:1px;
+    }
+    
+    .navlink {
+        font-size: 11pt;
+    }
+    
+    .nav {
+        margin-right: 0px;
+    }
+    
 }
 
 
@@ -1321,5 +1345,10 @@ flex-direction: column-reverse;
         top: 13900px;
         min-height: 7150px;
     }
+    
+        .Titular {
+    font-size: 34pt;
+        padding-top: 20px;
+}
     
 }
