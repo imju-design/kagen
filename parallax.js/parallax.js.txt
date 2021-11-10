@@ -26,6 +26,7 @@ ParallaxPart = (function() {
 })();
 
 ParallaxManager = (function() {
+	
   ParallaxManager.prototype.parts = [];
 
   function ParallaxManager(elements) {
@@ -49,6 +50,10 @@ ParallaxManager = (function() {
     window.addEventListener("scroll", this.onScroll.bind(this));
   }
 
+
+
+
+
   ParallaxManager.prototype.onScroll = function() {
     window.requestAnimationFrame(this.scrollHandler.bind(this));
   };
@@ -58,6 +63,9 @@ ParallaxManager = (function() {
     for (var i in this.parts) { this.parts[i].update(scrollY); }
   };
 
+
+	
+
   return ParallaxManager;
 
 })();
@@ -65,6 +73,8 @@ ParallaxManager = (function() {
 new ParallaxManager('.parallax-layer');
 new ParallaxManager('.parallax-layer2');
 new ParallaxManager('.parallax-layer3');
+
+
 
 
 // When the user scrolls down 50px from the top of the document, resize the header's font size
