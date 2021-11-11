@@ -51,7 +51,8 @@ ParallaxManager = (function() {
   }
 
 
-
+var mql = window.matchMedia("screen and (max-device-width: 700px)")
+mql.addListener(ParallaxManager) // attach listener function to listen in on state changes
 
 
   ParallaxManager.prototype.onScroll = function() {
@@ -82,17 +83,17 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 1150 || document.documentElement.scrollTop > 1150) {
-    document.getElementById("disappear").style.opacity = "0%";
-	document.getElementById("disappear2").style.opacity = "0%";
+    document.getElementById("disappear").style.display = "none";
+	document.getElementById("disappear2").style.display = "none";
   } else {
-    document.getElementById("disappear").style.opacity = "100%";
-    document.getElementById("disappear2").style.opacity = "100%";
+    document.getElementById("disappear").style.display = "initial";
+    document.getElementById("disappear2").style.display = "initial";
   }
 
   if (document.body.scrollTop > 8550 || document.documentElement.scrollTop > 8550) {
-    document.getElementById("disappear3").style.opacity = "0%";
+    document.getElementById("disappear3").style.display = "none";
   } else {
-    document.getElementById("disappear3").style.opacity = "100%";
+    document.getElementById("disappear3").style.display = "initial";
   }
 }
 
