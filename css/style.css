@@ -1549,6 +1549,29 @@ flex-direction: column-reverse;
         display:none;
     }
     
+    .footer-title {
+        font-size 14pt;
+    }
+    
+    .footer_list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+.footerModified {
+    border-top: solid;
+    border-top-width: 0.7pt;
+    border-top-color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0pt;
+    margin-top: 0pt;
+    
+}
+    
 }
 
 
