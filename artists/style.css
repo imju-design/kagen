@@ -160,7 +160,7 @@ grid-column-gap: 6vh;
     font-weight: 300;
     text-decoration: none;
     padding-top: 0pt;
-    padding-bottom: 2pt;
+    padding: 3pt;
     width: 50vw;
 }
 
@@ -183,8 +183,25 @@ font-weight:200;
 font-size: 12vw;
 margin-bottom: 0vh;
 margin-top:4vh;
+}
+    
+ul {
+padding: 1px;
+}  
+    
+ul li {
+display: inline-block;
+padding: 10px;
+}
 
-    }
+.navlink {
+    font-size:11pt;
+}   
+    
+.footer-about {
+font-size: 9pt;
+padding-right: 10pt;   
+}
     
 }
 
