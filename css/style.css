@@ -1248,6 +1248,10 @@ flex-direction: column-reverse;
     top: 12200px;
     min-height: 1700px;
     }
+    
+    .fireflies {
+        display: none;
+    }
 
 
     .content4 {
