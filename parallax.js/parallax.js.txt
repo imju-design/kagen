@@ -74,6 +74,7 @@ mql.addListener(ParallaxManager) // attach listener function to listen in on sta
 new ParallaxManager('.parallax-layer');
 new ParallaxManager('.parallax-layer2');
 new ParallaxManager('.parallax-layer3');
+new ParallaxManager('.parallax-layer4');
 
 
 

@@ -43,6 +43,18 @@ body {
   background-size: auto 1100px;
 }
 
+.parallax-layer4 {
+  width: 100%;
+  max-height: 750px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: auto 753px;
+
+}
+
 
 @font-face {
   font-family: 'Maragsa';
@@ -621,10 +633,10 @@ body {
 }
 
 .content5 {
-    top: 12900px;
+    top: 17400px;
     position: absolute;
     width: 100%;
-    min-height: 5050px;
+    min-height: 550px;
     display: flex;
     align-items: flex-end;
 }
@@ -828,6 +840,17 @@ body {
     z-index: 100;
 }
 
+.zindex500 {
+    z-index: 500;
+}
+
+.zindex600 {
+    z-index: 600;
+}
+
+.zindex1000 {
+    z-index: 1000;
+}
 .positioned {
     position: absolute;
     width: 100%;
